@@ -11,6 +11,21 @@ const btnClearCart = document.querySelector('.btn__clear-cart')
 let counterCart = 0
 let totalPrice = 0
 
+let styleBodyCart = document.createElement('style')
+styleBodyCart.innerHTML = `.wrapper__product {
+   display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ justify-items: center;
+align-content: center;
+  border-bottom: #6F7275 2px solid;
+  margin-bottom: 5px;
+}
+
+.clear__btn {
+ width: min-content;
+  margin: 3px;
+}`
+document.head.append(styleBodyCart)
 shopCart.dataset.toggle = 'modal'
 shopCart.dataset.target = '#cart-modal'
 const viewCounterCart = (countLabel, count) => {

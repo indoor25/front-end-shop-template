@@ -138,18 +138,3 @@
 .fa-shopping-cart {
   font-size: 1.5rem;
 }
-
-
-.wrapper__product {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
-  align-content: center;
-  border-bottom: #6F7275 2px solid;
-  margin-bottom: 5px;
-}
-
-.clear__btn {
-  width: min-content;
-  margin: 3px;
-}

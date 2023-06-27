@@ -7128,26 +7128,6 @@ a.text-dark:focus {
   font-size: 1.5rem;
 }
 
-.wrapper__product {
-  display: grid;
-  -ms-flex-line-pack: center;
-  align-content: center;
-
-  margin-bottom: 5px;
-
-  border-bottom: #6f7275 2px solid;
-
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
-}
-
-.clear__btn {
-  width: -webkit-min-content;
-  width:    -moz-min-content;
-  width:         min-content;
-  margin: 3px;
-}
-
 body {
   background-image: url(../img/patt.png);
   background-position: 50% 0;
